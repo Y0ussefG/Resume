@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef Yacoub Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+
+        .section-title {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 5px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 3px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .work-experience, .education, .skills, .projects {
+            margin-bottom: 20px;
+        }
+
+        .job-title {
+            font-weight: bold;
+        }
+
+        .job-details {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .date {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Youssef Yacoub</h1>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:Youssef_Yacoub@student.uml.edu">Youssef_Yacoub@student.uml.edu</a> | Phone: 978-242-4765 | Location: Methuen, MA</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/youssef-yacoub" target="_blank">linkedin.com/in/youssef-yacoub</a></p>
+        </div>
+
+        <hr>
+
+        <div class="education">
+            <h2 class="section-title">Education</h2>
+            <p><strong>University of Massachusetts Lowell</strong>, Lowell, MA <span class="date">Anticipated: May 2025</span></p>
+            <p><strong>Bachelor of Science, Computer Engineering</strong></p>
+            <p>Relevant Coursework: Network Design, Operating Systems, Cloud Computing, Microprocessors I, Data Structures</p>
+        </div>
+
+        <hr>
+
+        <div class="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <ul>
+                <li><span class="bold-text">Software:</span> C/C++, Python, Microsoft Azure, AWS, PowerShell, Linux, MATLAB, Wireshark, Microsoft Excel</li>
+                <li><span class="bold-text">Lab/Testing Equipment:</span> Oscilloscope, Analog Discovery 2, Digital Multimeter, Network Analyzer, Power Supplies</li>
+                <li><span class="bold-text">Hardware:</span> Transformers, Digital Power Brick, Transistors, MOSFET, Diodes, Capacitors, DNS, LAN, IP, MAC</li>
+                <li><span class="bold-text">Certificates:</span> Google Cybersecurity</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="work-experience">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="job-details">
+                <p><span class="job-title">System Engineer</span> — CommScope, Lowell, MA <span class="date">Apr 2024 - Aug 2024</span></p>
+                <ul>
+                    <li>Supported system design and validation by coding a Python script to clean and migrate over 13,000 requirements from Jazz to Jira.</li>
+                    <li>Worked on gNodeB non-standalone system bring-up, troubleshooting uplink and downlink issues for reliable communication.</li>
+                    <li>Enhanced legacy MATLAB scripts by adding new features, optimizing functionality for project needs.</li>
+                </ul>
+            </div>
+
+            <div class="job-details">
+                <p><span class="job-title">Tech Service Support Representative</span> — UMass Lowell IT-Technology Services, Lowell, MA <span class="date">Apr 2023 - May 2024</span></p>
+                <ul>
+                    <li>Provided real-time troubleshooting support for over 1,000 tickets for university staff, faculty, and students.</li>
+                    <li>Resolved systemic MAC address connection issues for 6 network servers using ClearPass.</li>
+                    <li>Managed academic lab equipment and hardware replacements for over 30 computers.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="projects">
+            <h2 class="section-title">Academic Engineering Projects</h2>
+
+            <div class="job-details">
+                <p><span class="job-title">TCP Protocol</span></p>
+                <ul>
+                    <li>Implemented the TCP socket to send files over to clients, designing functions such as the three-way handshake for connection setup, flow control to regulate data transmission, and congestion control to manage network traffic efficiently.</li>
+                    <li>Developed error-handling features, including timeout mechanisms for retransmissions and a checksum function to ensure data integrity. Additionally, created an error injection module to corrupt random bits in files as per user requirements for testing purposes.</li>
+                    <li>Enhanced protocol reliability by simulating real-world transmission conditions, ensuring accurate and efficient file transfer through implementation of TCP functions like flow management and error correction.</li>
+                </ul>
+            </div>
+
+            <div class="job-details">
+                <p><span class="job-title">Celebrity Facial Recognition</span></p>
+                <ul>
+                    <li>Developed a facial recognition system using AWS Recognition, Lambda, S3, and DynamoDB for image processing and database management.</li>
+                    <li>Implemented an API Gateway for backend integration, troubleshooting CORS issues in the React frontend, and switched to AWS CDK deployment for resources</li>
+                    <li>Optimized the system architecture by using AWS services to automate image recognition and data storage, improving efficiency and scalability.</li>
+
+                </ul>
+            </div>
+
+            <div class="job-details">
+                <p><span class="job-title">Laser Security System</span></p>
+                <ul>
+                    <li>Designed and implemented an alarm laser system using BC547 transistors, LDR, and resistors.</li>
+                    <li>Developed a modular system with LED and buzzer for real-time feedback and alarm triggering.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
